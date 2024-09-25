@@ -1,0 +1,50 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  background-image: url('background0.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(214, 214, 220);
+}
+
+.Connect-button {
+  height: 50px;
+  width: 200px;
+  font-size: 18px;
+  color: green;
+}
+
+.Dashboard-button {
+  height: 50px;
+  width: 200px;
+  font-size: 18px;
+  color: blue;
+  margin-top: 50px;
+}
